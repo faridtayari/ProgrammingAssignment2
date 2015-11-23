@@ -13,7 +13,7 @@ makeCacheMatrix <- function(x = matrix()) {
              setInverse = setInverse,
              getInverse = getInverse)
 }
-
+ 
 ##This function checks to see if the invers is already calculated. 
 ##If it's already calculated returns the saved value and if not calculates 
 ##the invers of the matrix and saves the calculation.
